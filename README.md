@@ -99,7 +99,9 @@ After creating your bearer token, __create a repository__ to test with the API:
 
 ## 2. Getting Started
 
-There are 5 folders located within the 'api_testing_validation' folder. Each folder is for a different part of the course. 
+There are 5 folders named 1-5 located within the 'api_testing_validation' folder. Each folder is for a different part of the course. 
+
+Folder 0 is a test folder that contains an API endpoint to a API testing website. If you are having issues with the GitHub API, you may want to test out the endpoint in folder 0. 
 
 The __folder names represent sequential steps__ as you go through the course; folder '1' will contain the first test, while folder '5' will contain the final test. 
 
