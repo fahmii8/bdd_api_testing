@@ -12,7 +12,7 @@ The __course on LinkedIn Learning and the practice files are outdated__, but usi
    1.2 [Installing Python](#12-installing-python)     
    1.3 [Installing Required Python Libraries](#13-installing-required-python-libraries)      
    1.4 [Setting up GitHub](#14-setting-up-github)    
-   1.5 [Installing Postman][#15-installing-postman]
+   1.5 [Installing Postman](#15-installing-postman)
 2. [Getting Started](#2-getting-started)
 3. [Running the Tests](#3-running-the-tests)
 
