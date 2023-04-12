@@ -7,35 +7,51 @@ The __course on LinkedIn Learning and the practice files are outdated__, but usi
 ---
 
 # Table of Contents:
-1. Setup
-2. Getting Started
-3. Running the Tests
+1. [Setup:](#1-setup)    
+   1.1 [Download Files](#11-download-files)    
+   1.2 [Installing Python](#12-installing-python)     
+   1.3 [Installing Required Python Libraries](#13-installing-required-python-libraries)      
+   1.4 [Setting up GitHub](#14-setting-up-github)    
+2. [Getting Started](#2-getting-started)
+3. [Running the Tests](#3-running-the-tests)
 
 ---
 
 
-## Setup:
+## 1. Setup:
 
 
-### 1.1 Installing Python
+### 1.1 Download Files
+
+You will first have to download the files within this repository. You can do this by either downloading a .zip of the repo by selecting the green 'code' button and then 'Download ZIP:
+![](images/get_files.png)
+
+or by running the following command if you have the GitHub CLI installed:
+
+```
+gh repo clone fahmii8/coursera_api_testing
+```
+
+
+### 1.2 Installing Python
 
 You must have a valid installation of Python. If you don't, you can download it from the following website:  
 https://www.python.org/downloads/  
 In order to make sure that your Python installation is working, type the following into CMD / PowerShell / Terminal:
 
-`
+```
 python --version
-`
+```
 
 The response you get should look something like:
 
-`
+```
 Python 3.11.2
-`
+```
 
 You may not have the exact same Python version, but as long as it is __version 3.7+, you are good to go__. If you receive an error, your installation of Python may have failed, or you need to add the python exe file to your PATH variables (you may find [this link](https://datatofish.com/add-python-to-windows-path/) helpful if you are having issues).
 
-### 1.2 Installing Required Python Libraries
+### 1.3 Installing Required Python Libraries
 
 A few Python libraries are required to ensure functionality:
 
@@ -45,13 +61,13 @@ A few Python libraries are required to ensure functionality:
 
 To install these libraries, type the following into CMD / PowerShell / Terminal:
 
-`
+```
 pip install -r requirements.txt
-`
+```
 
 This will pull the requirements from the 'requirements.txt' file in this folder, and install the required libraries into your environment. 
 
-### 1.2 Setting up GitHub
+### 1.4 Setting up GitHub
 
 The majority of this course will make use of the GitHub REST API. An __active GitHub account is required__ for many of the practice exercises as well. 
 
@@ -81,7 +97,7 @@ After creating your bearer token, __create a repository__ to test with the API:
 
 ---
 
-## Getting Started
+## 2. Getting Started
 
 There are 5 folders located within the 'coursera_api_testing_validation' folder. Each folder is for a different part of the course. 
 
@@ -126,48 +142,48 @@ __Folder 5 will also have a spot for you to put in your GitHub username__ on lin
 
 ---
 
-### Running the Tests
+## 3. Running the Tests
 
 To actually run the scenario and tests that you put into your [file_name].feature file, open CMD / PowerShell / Terminal and navigate to the coursera_api_testing_validation folder. Then, type 'behave' followed by the folder number into CMD / PowerShell / Terminal. 
 
 For example, if we wanted to conduct the first test, we would type the following:
 
-`
+```
 behave .\1\
-`
+```
 
 Then hit enter, and the test will run and the results will be shown. If you receive any errors, read through the response and fix any issues that it detected. 
 
 The following screenshots will display successful results for each of the 5 folders / tests:
 
 1:
-`
+```
 behave .\1\
-`
+```
 ![](images/scenario_1.png)
 
-1:
-`
+2:
+```
 behave .\2\
-`
+```
 ![](images/scenario_2.png)
 
-1:
-`
+3:
+```
 behave .\3\
-`
+```
 ![](images/scenario_3.png)
 
-1:
-`
+4:
+```
 behave .\4\
-`
+```
 ![](images/scenario_4.png)
 
-1:
-`
+5:
+```
 behave .\5\
-`
+```
 ![](images/scenario_5.png)
 
 Good luck and reach out if you have any issues!
