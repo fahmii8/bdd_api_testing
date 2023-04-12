@@ -29,7 +29,7 @@ You will first have to download the files within this repository. You can do thi
 or by running the following command if you have the GitHub CLI installed:
 
 ```
-gh repo clone fahmii8/coursera_api_testing
+gh repo clone fahmii8/bdd_api_testing
 ```
 
 
@@ -99,7 +99,7 @@ After creating your bearer token, __create a repository__ to test with the API:
 
 ## 2. Getting Started
 
-There are 5 folders located within the 'coursera_api_testing_validation' folder. Each folder is for a different part of the course. 
+There are 5 folders located within the 'api_testing_validation' folder. Each folder is for a different part of the course. 
 
 The __folder names represent sequential steps__ as you go through the course; folder '1' will contain the first test, while folder '5' will contain the final test. 
 
@@ -144,7 +144,7 @@ __Folder 5 will also have a spot for you to put in your GitHub username__ on lin
 
 ## 3. Running the Tests
 
-To actually run the scenario and tests that you put into your [file_name].feature file, open CMD / PowerShell / Terminal and navigate to the coursera_api_testing_validation folder. Then, type 'behave' followed by the folder number into CMD / PowerShell / Terminal. 
+To actually run the scenario and tests that you put into your [file_name].feature file, open CMD / PowerShell / Terminal and navigate to the api_testing_validation folder. Then, type 'behave' followed by the folder number into CMD / PowerShell / Terminal. 
 
 For example, if we wanted to conduct the first test, we would type the following:
 
